@@ -9,7 +9,12 @@ export default function TodoList(props) {
                 props.listaTareas.map(todo => {
 
                     return (
-                        <TodoItem tarea={todo} key={todo.id} />
+                        <TodoItem 
+                            tarea={todo} 
+                            key={todo.id} 
+                            setTaskCompleted={props.setTaskCompleted} 
+                            deleteTask={props.deleteTask}    
+                        />
                     )
 
                 })

@@ -80,3 +80,7 @@ button:focus-visible {
   align-items: center;
   gap: .5rem;
 }
+
+.text-gray {
+  color: #AAA;
+}
